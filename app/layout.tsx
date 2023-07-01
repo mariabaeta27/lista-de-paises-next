@@ -1,5 +1,7 @@
+import { NavBar } from "@/components";
 import "./globals.css";
 import { Nunito_Sans } from "next/font/google";
+import Image from "next/image";
 
 const nunitoSans = Nunito_Sans({ subsets: ["latin"] });
 
@@ -16,7 +18,10 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={nunitoSans.className}>
-        <main>{children}</main>
+        <main className="bg-gray-100 min-h-screen">
+          <NavBar />
+          {children}
+        </main>
       </body>
     </html>
   );
