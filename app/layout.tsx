@@ -1,7 +1,6 @@
 import { NavBar } from "@/components";
 import "./globals.css";
 import { Nunito_Sans } from "next/font/google";
-import Image from "next/image";
 
 const nunitoSans = Nunito_Sans({ subsets: ["latin"] });
 

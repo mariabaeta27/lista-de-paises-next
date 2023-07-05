@@ -6,8 +6,8 @@ const NavBar = () => (
       <Image
         src={"logo.svg"}
         alt={"Logo Word"}
-        width={48}
-        height={48}
+        width={44}
+        height={44}
         className="mr-2"
       />
       <h1 className="text-2xl">Países do mundo</h1>
